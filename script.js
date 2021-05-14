@@ -112,7 +112,7 @@ function checkForm (){
     }
     else {
         var success = document.getElementById('success');
-        success.innerText = "Thanks " + name + " for you message";
+        success.innerText = "Thanks " + name + " for your message";
         success.style.display = 'block';
         setTimeout(function(){
             success.style.display = 'none';
